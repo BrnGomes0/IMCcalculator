@@ -1,0 +1,55 @@
+:root {
+    --corFundo: #5c4141;
+    --corSection: #ffff;
+    --corButton: rgb(116, 116, 207);
+    --ColorRed: red;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--corFundo);
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+    line-height: 1.5em; /*Altura da Linha*/
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto; /*Top/Button e Left/Right*/ 
+    background: var(--corSection);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;   
+}
+
+form input{
+    font-size: 24px;
+    height: 28px;
+    padding: 0 20px;
+}
+
+#button {
+    padding: 16px;
+    background-color: var(--corButton);
+    color: var(--corSection);
+}
+
+.paragrafo-resultado, .bad{
+    background-color: var(--corSection);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.bad {
+    background: var(--ColorRed);
+}
